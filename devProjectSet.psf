@@ -19,7 +19,7 @@
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-sirius.git,master,org.emoflon.ibex.tgg.editor.diagram"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-sirius.git,master,org.emoflon.ibex.tgg.editor.diagram.core"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-sirius.git,master,org.emoflon.ibex.tgg.editor.diagram.ui"/>
-<project reference="1.0,https://github.com/eMoflon/emoflon-ibex-sirius.git,master,org.emoflon.ibex.tgg.editor.feature"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-ibex-deployment.git,master,org.emoflon.ibex.tgg.editor.feature"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,master,org.emoflon.ibex.tgg.editor.ui"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,master,org.emoflon.ibex.tgg.ide"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-democles.git,master,org.emoflon.ibex.tgg.ide.democles"/>
