@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.emoflon.ibex.ide.feature"
-      label="iBex::Core"
-      version="1.0.0.qualifier">
+      label="eMoflon::Ibex-Core"
+      version="1.0.0.qualifier"
+      provider-name="eMoflon::IBeX Developers">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]
@@ -15,5 +16,119 @@
    <license url="http://www.example.com/license">
       [Enter License Description here.]
    </license>
+
+   <url>
+      <update label="eMoflon::IBeX" url="https://emoflon.org/emoflon-ibex-updatesite/stable/updatesite"/>
+   </url>
+
+   <requires>
+      <import feature="org.moflon.core.feature" version="1.7.0.qualifier"/>
+      <import feature="net.sourceforge.plantuml.feature" version="1.1.24"/>
+   </requires>
+
+   <plugin
+         id="org.emoflon.ibex.common"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emoflon.ibex.common.editor.utils"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emoflon.ibex.gt"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emoflon.ibex.gt.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emoflon.ibex.gt.editor.ide"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emoflon.ibex.gt.editor.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emoflon.ibex.gt.editor.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emoflon.ibex.gt.editor.ui.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emoflon.ibex.tgg.core.language"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emoflon.ibex.tgg.core.runtime"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emoflon.ibex.tgg.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emoflon.ibex.tgg.editor.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emoflon.ibex.tgg.ide"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emoflon.ibex.tgg.ui.debug"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emoflon.ibex.tgg.ui.debug.adapter"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>

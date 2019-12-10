@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.emoflon.ibex.tgg.editor.feature"
-      label="eMoflon::IBeXIbex-Sirius"
+      label="eMoflon::IBeX-Sirius"
       version="1.0.0.qualifier"
       provider-name="eMoflon::IBeX Developers">
 
@@ -25,9 +25,14 @@ See here for more details on EPL: http://www.eclipse.org/org/documents/epl-v10.p
    </license>
 
    <url>
-      <update label="eMoflon::IBeX" url="https://emoflon.org/emoflon-ibex-democles-updatesite/stable/updatesite"/>
+      <update label="eMoflon::IBeX" url="https://emoflon.org/emoflon-ibex-updatesite/stable/updatesite"/>
       <discovery label="eMoflon::IBeX (Democles)" url="https://emoflon.org/emoflon-ibex-democles/snapshot/updatesite/"/>
    </url>
+
+   <requires>
+      <import feature="org.moflon.core.feature" version="1.7.0.qualifier"/>
+      <import feature="org.emoflon.ibex.ide.feature" version="1.0.0.qualifier"/>
+   </requires>
 
    <plugin
          id="org.emoflon.ibex.tgg.editor.diagram.ui"

@@ -18,6 +18,7 @@
    </license>
 
    <url>
+      <update label="eMoflon::IBeX" url="https://emoflon.org/emoflon-ibex-updatesite/stable/updatesite"/>
       <discovery label="PlantUML" url="http://hallvard.github.io/plantuml"/>
       <discovery label="Xtext" url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
    </url>
@@ -26,16 +27,11 @@
          id="hipe.feature"
          version="0.0.0"/>
 
-   <includes
-         id="org.moflon.core.feature"
-         version="0.0.0"/>
-
-   <includes
-         id="net.sourceforge.plantuml.feature"
-         version="0.0.0"/>
-
    <requires>
-      <import feature="org.eclipse.xtext.runtime" version="2.12" match="greaterOrEqual"/>
+      <import feature="org.moflon.core.feature" version="1.7.0.qualifier"/>
+      <import feature="org.emoflon.ibex.ide.feature" version="1.0.0.qualifier"/>
+      <import feature="net.sourceforge.plantuml.feature" version="1.1.24" match="compatible"/>
+      <import feature="org.emoflon.ibex.tgg.editor.feature" version="1.0.0.qualifier"/>
    </requires>
 
    <plugin
@@ -54,34 +50,6 @@
 
    <plugin
          id="org.emoflon.ibex.tgg.runtime.hipe"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.gervarro.eclipse.task"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.gervarro.eclipse.workspace.autosetup"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.gervarro.eclipse.workspace.util"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.gervarro.util"
          download-size="0"
          install-size="0"
          version="0.0.0"

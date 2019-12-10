@@ -25,7 +25,7 @@ See here for more details on EPL: http://www.eclipse.org/org/documents/epl-v10.p
    </license>
 
    <url>
-      <update label="eMoflon::IBeX" url="https://emoflon.org/emoflon-ibex-democles-updatesite/stable/updatesite"/>
+      <update label="eMoflon::IBeX" url="https://emoflon.org/emoflon-ibex-updatesite/stable/updatesite"/>
       <discovery label="Democles" url="http://gervarro.org/democles/integration-0.5.0/"/>
       <discovery label="Democles Advanced" url="http://gervarro.org/democles/advanced/integration-0.5.0/"/>
       <discovery label="PlantUML" url="http://hallvard.github.io/plantuml"/>
@@ -34,13 +34,11 @@ See here for more details on EPL: http://www.eclipse.org/org/documents/epl-v10.p
       <discovery label="HiPE" url="https://arikae.github.io/HiPE-Updatesite/hipe.updatesite"/>
    </url>
 
-   <includes
-         id="org.emoflon.ibex.ide.feature"
-         version="0.0.0"/>
-
    <requires>
-      <import feature="org.gervarro.democles.feature.advanced" version="0.5" match="greaterOrEqual"/>
-      <import feature="org.gervarro.democles.feature.interpreter" version="0.5" match="greaterOrEqual"/>
+      <import feature="org.moflon.core.feature" version="1.7.0.qualifier"/>
+      <import feature="org.emoflon.ibex.ide.feature" version="1.0.0.qualifier"/>
+      <import feature="net.sourceforge.plantuml.feature" version="1.1.24" match="compatible"/>
+      <import feature="org.emoflon.ibex.tgg.editor.feature" version="1.0.0.qualifier"/>
    </requires>
 
    <plugin
