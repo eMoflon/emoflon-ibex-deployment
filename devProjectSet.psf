@@ -100,12 +100,12 @@
 <item elementID="=org.emoflon.ibex.tgg.ide.democles" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1502781754321_5" label="ibex-deployment" name="ibex-deployment">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/emoflon-ibex-updatesite" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.emoflon.ibex.tgg.editor.feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.emoflon.ibex.tgg.ide.democles.feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.emoflon.ibex.tgg.ide.hipe.dependency.feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.emoflon.ibex.tgg.ide.hipe.feature" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.emoflon.ibex.tgg.ide.updatesite" type="4"/>
+<item elementID="=emoflon-ibex-updatesite" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.ibex.tgg.editor.feature" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.ibex.tgg.ide.hipe.dependency.feature" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.ibex.tgg.ide.democles.feature" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.ibex.tgg.ide.updatesite" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.ibex.gt.editor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1575292985329_16" label="ibex-hipe" name="ibex-hipe">
 <item elementID="=org.emoflon.ibex.tgg.runtime.hipe" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
