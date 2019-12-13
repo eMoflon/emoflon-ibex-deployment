@@ -3,11 +3,6 @@
 <provider id="org.eclipse.egit.core.GitProvider">
 <project reference="1.0,https://github.com/eMoflon/emoflon-core-updatesite.git,master,."/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-updatesite.git,master,."/>
-<project reference="1.0,https://github.com/Arikae/HiPE.git,master,hipe.engine"/>
-<project reference="1.0,https://github.com/Arikae/HiPE.git,master,hipe.generator"/>
-<project reference="1.0,https://github.com/Arikae/HiPE.git,master,hipe.network"/>
-<project reference="1.0,https://github.com/Arikae/HiPE.git,master,hipe.pattern"/>
-<project reference="1.0,https://github.com/Arikae/HiPE.git,master,hipe.searchplan"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.emoflon.core.dependencies"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex.git,master,org.emoflon.ibex.common"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,master,org.emoflon.ibex.common.editor.utils"/>
