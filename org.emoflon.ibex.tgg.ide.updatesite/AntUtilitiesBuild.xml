@@ -12,6 +12,7 @@
 	<property name="emoflonIbexUpdatesiteProject" value="emoflon-ibex-updatesite" />
 	<property name="updateSiteLocationSnapshot" value="${emoflonIbexUpdateSiteProjectRoot}/snapshot/updatesite" />
 	<property name="updateSiteLocationStable" value="${emoflonIbexUpdateSiteProjectRoot}/stable/updatesite" />
+	<property name="updateSiteLocationBeta" value="${emoflonIbexUpdateSiteProjectRoot}/beta/updatesite" />
 	<property name="updateSiteArchive" value="${buildDirectory}/updatesite.zip" />
 
 
@@ -22,6 +23,17 @@
 			</fileset>
 		</delete>
 		<unzip src="${updateSiteArchive}" dest="${updateSiteLocationSnapshot}">
+		</unzip>
+		<eclipse.refreshLocal resource="${emoflonIbexUpdatesiteProject}" depth="infinite" />
+	</target>
+	
+	<target name="releaseBeta" depends="createArchive" description="Release beta update site">
+		<delete failonerror="false">
+			<fileset dir="${updateSiteLocationBeta}">
+				<include name="**/*" />
+			</fileset>
+		</delete>
+		<unzip src="${updateSiteArchive}" dest="${updateSiteLocationBeta}">
 		</unzip>
 		<eclipse.refreshLocal resource="${emoflonIbexUpdatesiteProject}" depth="infinite" />
 	</target>
