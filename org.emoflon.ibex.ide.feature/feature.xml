@@ -83,14 +83,14 @@
          unpack="false"/>
 
    <plugin
-         id="org.emoflon.ibex.tgg.core.language"
+         id="org.emoflon.ibex.tgg.language"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.emoflon.ibex.tgg.core.runtime"
+         id="org.emoflon.ibex.tgg.runtime"
          download-size="0"
          install-size="0"
          version="0.0.0"
