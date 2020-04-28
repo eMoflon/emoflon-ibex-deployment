@@ -6,10 +6,9 @@
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.emoflon.core.dependencies"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-integration-delta.git,master,org.emoflon.delta"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex.git,master,org.emoflon.ibex.common"/>
-<project reference="1.0,https://github.com/eMoflon/emoflon-ibex.git,master,org.emoflon.ibex.patternmodel"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,master,org.emoflon.ibex.common.editor.utils"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-ibex.git,master,org.emoflon.ibex.dependencies"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex.git,master,org.emoflon.ibex.gt"/>
-<project reference="1.0,https://github.com/eMoflon/emoflon-ibex.git,master,org.emoflon.ibex.gt.sgtpatternmodel"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-democles.git,master,org.emoflon.ibex.gt.democles"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,master,org.emoflon.ibex.gt.editor"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,master,org.emoflon.ibex.gt.editor.ide"/>
@@ -17,7 +16,9 @@
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,master,org.emoflon.ibex.gt.editor.ui"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,master,org.emoflon.ibex.gt.editor.ui.tests"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-hipe.git,master,org.emoflon.ibex.gt.hipe"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-ibex.git,master,org.emoflon.ibex.gt.sgtpatternmodel"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-deployment.git,master,org.emoflon.ibex.ide.feature"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-ibex.git,master,org.emoflon.ibex.patternmodel"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,master,org.emoflon.ibex.tgg.editor"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-sirius.git,master,org.emoflon.ibex.tgg.editor.diagram"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-sirius.git,master,org.emoflon.ibex.tgg.editor.diagram.core"/>
@@ -94,14 +95,15 @@
 <item elementID="=org.moflon.core.utilities.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1496663509760_2" label="ibex-core" name="ibex-core">
-<item elementID="=org.emoflon.ibex.tgg.language" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.delta" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.tgg.runtime" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.common" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.patternmodel" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=org.emoflon.ibex.tgg.runtime.precedencegraph" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.ibex.tgg.language" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.gt" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.ibex.tgg.runtime.precedencegraph" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.gt.sgtpatternmodel" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.ibex.dependencies" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1496663535943_4" label="ibex-democles" name="ibex-democles">
 <item elementID="=org.emoflon.ibex.gt.democles" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
