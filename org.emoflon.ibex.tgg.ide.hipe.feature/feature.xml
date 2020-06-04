@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.emoflon.ibex.tgg.ide.hipe.feature"
+      id="org.emoflon.ibex.ide.hipe.feature"
       label="eMoflon::IBeX (HiPE)"
       version="1.0.0.qualifier"
       provider-name="eMoflon::IBeX Developers">
@@ -21,6 +21,7 @@
       <update label="eMoflon::IBeX" url="https://emoflon.org/emoflon-ibex-updatesite/stable/updatesite"/>
       <discovery label="PlantUML" url="http://hallvard.github.io/plantuml"/>
       <discovery label="Xtext" url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>
+      <discovery label="HiPE" url="https://hipe-devops.github.io/HiPE-Updatesite/hipe.updatesite/"/>
    </url>
 
    <includes

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.emoflon.ibex.tgg.ide.democles.feature"
+      id="org.emoflon.ibex.ide.democles.feature"
       label="eMoflon::IBeX (Democles)"
       version="1.0.0.qualifier"
       provider-name="eMoflon::IBeX Developers">
