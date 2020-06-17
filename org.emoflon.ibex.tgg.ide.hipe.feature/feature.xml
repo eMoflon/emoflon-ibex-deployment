@@ -25,14 +25,11 @@
    </url>
 
    <includes
-         id="hipe.feature"
+         id="org.emoflon.ibex.ide.feature"
          version="0.0.0"/>
 
    <requires>
-      <import feature="org.moflon.core.feature" version="1.7.0.qualifier"/>
-      <import feature="org.emoflon.ibex.ide.feature" version="1.0.0.qualifier"/>
-      <import feature="net.sourceforge.plantuml.feature" version="1.1.24" match="compatible"/>
-      <import feature="org.emoflon.ibex.tgg.editor.feature" version="1.0.0.qualifier"/>
+      <import feature="hipe.feature" version="1.0.0.202005151245"/>
    </requires>
 
    <plugin

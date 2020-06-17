@@ -34,12 +34,9 @@ See here for more details on EPL: http://www.eclipse.org/org/documents/epl-v10.p
       <discovery label="HiPE" url="https://arikae.github.io/HiPE-Updatesite/hipe.updatesite"/>
    </url>
 
-   <requires>
-      <import feature="org.moflon.core.feature" version="1.7.0.qualifier"/>
-      <import feature="org.emoflon.ibex.ide.feature" version="1.0.0.qualifier"/>
-      <import feature="net.sourceforge.plantuml.feature" version="1.1.24" match="compatible"/>
-      <import feature="org.emoflon.ibex.tgg.editor.feature" version="1.0.0.qualifier"/>
-   </requires>
+   <includes
+         id="org.emoflon.ibex.ide.feature"
+         version="0.0.0"/>
 
    <plugin
          id="org.emoflon.ibex.tgg.ide.democles"

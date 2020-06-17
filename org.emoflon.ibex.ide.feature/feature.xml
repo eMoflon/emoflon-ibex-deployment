@@ -21,8 +21,11 @@
       <update label="eMoflon::IBeX" url="https://emoflon.org/emoflon-ibex-updatesite/stable/updatesite"/>
    </url>
 
+   <includes
+         id="org.moflon.core.feature"
+         version="0.0.0"/>
+
    <requires>
-      <import feature="org.moflon.core.feature" version="1.7.0.qualifier"/>
       <import feature="net.sourceforge.plantuml.feature" version="1.1.24"/>
    </requires>
 

@@ -24,35 +24,27 @@
       <discovery label="Viatra" url="http://download.eclipse.org/viatra/updates/release/latest"/>
    </url>
 
+   <includes
+         id="org.moflon.core.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.emoflon.ibex.ide.feature"
+         version="0.0.0"/>
+
    <requires>
-      <import feature="org.moflon.core.feature" version="1.7.0.qualifier"/>
-      <import feature="org.emoflon.ibex.ide.feature" version="1.0.0.qualifier"/>
-      <import feature="net.sourceforge.plantuml.feature" version="1.1.24" match="compatible"/>
-      <import feature="org.emoflon.ibex.tgg.editor.feature" version="1.0.0.qualifier"/>
-      <import plugin="org.emoflon.core.dependencies" version="1.0.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.common" version="2.17.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.viatra.query.patternlanguage.emf" version="2.2.1" match="greaterOrEqual"/>
       <import plugin="org.eclipse.viatra.query.runtime" version="2.2.1" match="greaterOrEqual"/>
       <import plugin="org.eclipse.xtext.xbase" version="2.19.0" match="greaterOrEqual"/>
       <import plugin="org.apache.log4j" version="1.2.15" match="greaterOrEqual"/>
       <import plugin="org.eclipse.emf.ecore.xmi" version="2.16.0" match="greaterOrEqual"/>
-      <import plugin="org.emoflon.ibex.common" version="1.0.0" match="greaterOrEqual"/>
       <import plugin="com.google.inject" version="3.0.0" match="greaterOrEqual"/>
-      <import plugin="org.emoflon.ibex.gt" version="1.0.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.xtext" version="2.19.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.viatra.query.runtime.localsearch" version="2.2.1" match="greaterOrEqual"/>
       <import plugin="org.eclipse.viatra.query.runtime.rete" version="2.2.1" match="greaterOrEqual"/>
       <import plugin="org.eclipse.viatra.query.runtime.base.itc" version="2.2.1" match="greaterOrEqual"/>
       <import plugin="org.eclipse.collections" version="9.2.0" match="greaterOrEqual"/>
-      <import plugin="org.emoflon.ibex.patternmodel"/>
-      <import plugin="org.emoflon.ibex.tgg.editor" version="1.0.0" match="greaterOrEqual"/>
-      <import plugin="org.emoflon.ibex.tgg.ide" version="1.0.0" match="greaterOrEqual"/>
-      <import plugin="org.emoflon.ibex.tgg.language" version="1.0.0" match="greaterOrEqual"/>
-      <import plugin="org.emoflon.ibex.tgg.runtime" version="1.0.0" match="greaterOrEqual"/>
-      <import plugin="net.sourceforge.plantuml.eclipse" version="1.1.24" match="greaterOrEqual"/>
-      <import plugin="org.moflon.core.plugins" version="3.1.0" match="greaterOrEqual"/>
-      <import plugin="org.moflon.core.ui" version="1.3.0" match="greaterOrEqual"/>
-      <import plugin="org.emoflon.ibex.gt.viatra" version="1.0.0" match="greaterOrEqual"/>
    </requires>
 
    <plugin
