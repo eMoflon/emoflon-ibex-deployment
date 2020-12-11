@@ -135,13 +135,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.emoflon.ibex.tgg.runtime.precedencegraph"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.emoflon.delta"
          download-size="0"
          install-size="0"
@@ -150,13 +143,6 @@
 
    <plugin
          id="org.emoflon.ibex.patternmodel"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.emoflon.ibex.gt.sgtpatternmodel"
          download-size="0"
          install-size="0"
          version="0.0.0"
