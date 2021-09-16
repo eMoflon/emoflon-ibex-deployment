@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.emoflon.ibex.tgg.editor.feature_1.0.0.qualifier.jar" id="org.emoflon.ibex.tgg.editor.feature" version="1.0.0.qualifier">
-      <category name="eMoflon-Ibex"/>
-   </feature>
    <feature url="features/org.emoflon.ibex.ide.democles.feature_1.0.0.qualifier.jar" id="org.emoflon.ibex.ide.democles.feature" version="1.0.0.qualifier">
       <category name="eMoflon-Ibex"/>
    </feature>
@@ -10,6 +7,9 @@
       <category name="eMoflon-Ibex"/>
    </feature>
    <feature url="features/org.emoflon.ibex.ide.viatra.feature_1.0.0.qualifier.jar" id="org.emoflon.ibex.ide.viatra.feature" version="1.0.0.qualifier">
+      <category name="eMoflon-Ibex"/>
+   </feature>
+   <feature url="features/org.emoflon.ibex.tgg.editor.feature_1.0.0.qualifier.jar" id="org.emoflon.ibex.tgg.editor.feature" version="1.0.0.qualifier">
       <category name="eMoflon-Ibex"/>
    </feature>
    <category-def name="eMoflon-Ibex" label="eMoflon::Ibex"/>
