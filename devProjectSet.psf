@@ -49,20 +49,16 @@
 <project reference="1.0,https://github.com/eMoflon/emoflon-victory.git,master,org.emoflon.victory.ui"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.branding"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.build"/>
-<project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.build.tests"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.feature"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.plugins"/>
-<project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.plugins.tests"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.preferences"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.propertycontainer"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.releng.target"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.releng.updatesite"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.ui"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.ui.autosetup"/>
-<project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.ui.autosetup.tests"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.ui.packageregistration"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.utilities"/>
-<project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.utilities.tests"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.xtext"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.emf.build"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.emf.codegen"/>
@@ -73,7 +69,6 @@
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1518877391885_3" label="core-code-generator" name="code generator">
 <item elementID="=org.moflon.emf.build" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.emf.codegen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=org.moflon.core.build.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.core.build" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1518877419851_4" label="core-deployment" name="deployment">
@@ -88,7 +83,6 @@
 <item elementID="=org.moflon.emf.ui" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.core.ui" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.core.ui.packageregistration" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=org.moflon.core.ui.autosetup.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.core.ui.autosetup" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.git.ui" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSets>
@@ -99,8 +93,6 @@
 <item elementID="=org.moflon.core.plugins" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.core.preferences" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.core.utilities" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=org.moflon.core.plugins.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=org.moflon.core.utilities.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1496663509760_2" label="ibex-core" name="ibex-core">
 <item elementID="=org.emoflon.delta" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
