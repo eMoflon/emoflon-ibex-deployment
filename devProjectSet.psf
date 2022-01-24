@@ -3,14 +3,6 @@
 <provider id="org.eclipse.egit.core.GitProvider">
 <project reference="1.0,https://github.com/eMoflon/emoflon-core-updatesite.git,master,."/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-updatesite.git,master,."/>
-<project reference="1.0,https://github.com/Arikae/HiPE.git,master,hipe.dependencies"/>
-<project reference="1.0,https://github.com/Arikae/HiPE.git,master,hipe.engine"/>
-<project reference="1.0,https://github.com/Arikae/HiPE.git,master,hipe.feature"/>
-<project reference="1.0,https://github.com/Arikae/HiPE.git,master,hipe.generator"/>
-<project reference="1.0,https://github.com/Arikae/HiPE.git,master,hipe.network"/>
-<project reference="1.0,https://github.com/Arikae/HiPE.git,master,hipe.pattern"/>
-<project reference="1.0,https://github.com/Arikae/HiPE.git,master,hipe.searchplan"/>
-<project reference="1.0,https://github.com/Arikae/HiPE.git,master,hipe.updatesite"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.emoflon.core.dependencies"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-integration-delta.git,master,org.emoflon.delta"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex.git,master,org.emoflon.ibex.common"/>
@@ -103,16 +95,6 @@
 <item elementID="=org.moflon.core.plugins" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.core.preferences" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.core.utilities" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-</workingSets>
-<workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1642685751205_17" label="hipe-core" name="hipe-core">
-<item elementID="=hipe.pattern" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=hipe.generator" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=hipe.network" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=hipe.engine" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hipe.updatesite" type="4"/>
-<item elementID="=hipe.searchplan" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=hipe.dependencies" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hipe.feature" type="4"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1496663509760_2" label="ibex-core" name="ibex-core">
 <item elementID="=org.emoflon.delta" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
