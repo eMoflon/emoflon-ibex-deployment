@@ -27,9 +27,9 @@
 
    <requires>
       <import feature="net.sourceforge.plantuml.feature" version="1.1.24"/>
-      <import feature="org.eclipse.emf.mwe2.launcher" version="2.12.1.v20210218-2134" match="greaterOrEqual"/>
-      <import feature="org.eclipse.emf.mwe2.runtime.sdk" version="2.12.1.v20210218-2134" match="greaterOrEqual"/>
-      <import feature="org.eclipse.emf.mwe2.language.sdk" version="2.12.1.v20210218-2134" match="greaterOrEqual"/>
+      <import feature="org.eclipse.emf.mwe2.launcher" version="2.12.1.v20210218-2134"/>
+      <import feature="org.eclipse.emf.mwe2.runtime.sdk" version="2.12.1.v20210218-2134"/>
+      <import feature="org.eclipse.emf.mwe2.language.sdk" version="2.12.1.v20210218-2134"/>
    </requires>
 
    <plugin
