@@ -46,6 +46,8 @@
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-viatra.git,master,org.emoflon.ibex.tgg.runtime.viatra"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,master,org.emoflon.ibex.tgg.ui.debug"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,master,org.emoflon.ibex.tgg.ui.debug.adapter"/>
+<project reference="1.0,https://github.com/eMoflon/SmartEMF.git,main,emfcodegenerator"/>
+<project reference="1.0,https://github.com/eMoflon/SmartEMF.git,main,org.emoflon.smartemf.dependencies"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-victory.git,master,org.emoflon.victory.ui"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.branding"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.build"/>
@@ -103,6 +105,8 @@
 <item elementID="=org.emoflon.ibex.gt" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.dependencies" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.gt.statemodel" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.smartemf.dependencies" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.smartemf" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1496663535943_4" label="ibex-democles" name="ibex-democles">
 <item elementID="=org.emoflon.ibex.gt.democles" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
