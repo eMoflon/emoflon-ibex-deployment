@@ -5,6 +5,7 @@
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-updatesite.git,master,."/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.emoflon.core.dependencies"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-integration-delta.git,master,org.emoflon.delta"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-headless.git,main,org.emoflon.headless.updatesite"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex.git,master,org.emoflon.ibex.common"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,master,org.emoflon.ibex.common.editor.utils"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex.git,master,org.emoflon.ibex.dependencies"/>
@@ -46,8 +47,12 @@
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-viatra.git,master,org.emoflon.ibex.tgg.runtime.viatra"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,master,org.emoflon.ibex.tgg.ui.debug"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,master,org.emoflon.ibex.tgg.ui.debug.adapter"/>
-<project reference="1.0,https://github.com/eMoflon/SmartEMF.git,main,emfcodegenerator"/>
-<project reference="1.0,https://github.com/eMoflon/SmartEMF.git,main,org.emoflon.smartemf.dependencies"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-headless.git,main,org.emoflon.jar.build"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-headless.git,main,org.emoflon.jar.feature"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-headless.git,main,org.emoflon.site.build"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-headless.git,main,org.emoflon.site.feature"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,emfcodegenerator"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.emoflon.smartemf.dependencies"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-victory.git,master,org.emoflon.victory.ui"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.branding"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.build"/>
@@ -95,6 +100,13 @@
 <item elementID="=org.moflon.core.plugins" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.core.preferences" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.core.utilities" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSets>
+<workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1644503666149_30" label="headless-utils" name="headless-utils">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.emoflon.headless.updatesite" type="4"/>
+<item elementID="=org.emoflon.jar.build" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.site.build" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.emoflon.site.feature" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.emoflon.jar.feature" type="4"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1496663509760_2" label="ibex-core" name="ibex-core">
 <item elementID="=org.emoflon.delta" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
