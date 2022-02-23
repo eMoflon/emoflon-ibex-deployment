@@ -185,4 +185,17 @@
          version="0.0.0"
          unpack="false"/>
 
+   <plugin
+         id="org.emoflon.smartemf"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emoflon.smartemf.dependencies"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
 </feature>
