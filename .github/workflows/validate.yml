@@ -14,5 +14,19 @@ jobs:
           SITEXMLFILE="./org.emoflon.ibex.tgg.ide.updatesite/site.xml"
           exec 1>&2
           NUMZEROS=$(grep "version=\"1.0.0.qualifier\">" $SITEXMLFILE | wc -l)
-          NUMVERS=$(grep -o -P '(?<=version=\").*(?=.qualifier\">)' $SITEXMLFILE |wc -l)
+          NUMVERS=$(grep -o -P '(?<=version=\").*(?=.qualifier\">)' $SITEXMLFILE | wc -l)
           if [ $NUMZEROS -ne $NUMVERS ]; then echo "site.xml has versions != 1.0.0" && exit 1; fi
+
+  # Validate all 'feature.xml' files
+  validate-feature-xml:
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - run: |
+          find . -name "feature.xml" -print0 | while read -d $'\0' FILE; do
+              echo "Processing file $FILE";
+              NUMMATCHES=$(grep "match=" $FILE | wc -l);
+              if [ $NUMMATCHES -ne "0" ]; then echo "$FILE includes dependency \"match=\" (hard-coded versions)" && MATCHFOUND=1; fi;
+          done
+          if [ -n $MATCHFOUND ]; then echo "Check failed!" && exit 1; fi
