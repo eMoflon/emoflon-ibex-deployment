@@ -1,0 +1,18 @@
+name: Validate eMoflon-ibex-deployment versions
+on:
+  push
+
+
+jobs:
+  # Validate updatesite 'site.xml' file
+  validate-site-xml:
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - run: |
+          SITEXMLFILE="./org.emoflon.ibex.tgg.ide.updatesite/site.xml"
+          exec 1>&2
+          NUMZEROS=$(grep "version=\"1.0.0.qualifier\">" $SITEXMLFILE | wc -l)
+          NUMVERS=$(grep -o -P '(?<=version=\").*(?=.qualifier\">)' $SITEXMLFILE |wc -l)
+          if [ $NUMZEROS -ne $NUMVERS ]; then echo "site.xml has versions != 1.0.0"; fi
