@@ -24,9 +24,11 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
       - run: |
-          find . -name "feature.xml" -print0 | while read -d $'\0' FILE; do
+          MATCHFOUND=false
+          FOUNDFILES=$(find . -name "feature.xml") 
+          for FILE in $FOUNDFILES; do
               echo "Processing file $FILE";
               NUMMATCHES=$(grep "match=" $FILE | wc -l);
-              if [ $NUMMATCHES -ne "0" ]; then echo "$FILE includes dependency \"match=\" (hard-coded versions)" && MATCHFOUND=1; fi;
+              if [ $NUMMATCHES -ne "0" ]; then echo "$FILE includes dependency \"match=\" (hard-coded versions)" && MATCHFOUND=true; fi;
           done
-          if [ -n $MATCHFOUND ]; then echo "Check failed!" && exit 1; fi
+          if [ "$MATCHFOUND" = true ]; then echo "Check failed!" && exit 1; fi
