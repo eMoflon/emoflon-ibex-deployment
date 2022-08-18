@@ -117,13 +117,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.emoflon.ibex.tgg.ide"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.emoflon.ibex.tgg.ui.debug"
          download-size="0"
          install-size="0"
@@ -197,5 +190,12 @@
          download-size="0"
          install-size="0"
          version="0.0.0"/>
+
+   <plugin
+         id="org.emoflon.ibex.tgg.editor.ide"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>
