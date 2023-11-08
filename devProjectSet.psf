@@ -48,7 +48,7 @@
 <project reference="1.0,https://github.com/eMoflon/emoflon-headless.git,main,org.emoflon.jar.feature"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-headless.git,main,org.emoflon.site.build"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-headless.git,main,org.emoflon.site.feature"/>
-<project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,emfcodegenerator"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.emoflon.smartemf"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.emoflon.smartemf.dependencies"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-victory.git,master,org.emoflon.victory.ui"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,master,org.moflon.core.branding"/>
@@ -74,6 +74,8 @@
 <item elementID="=org.moflon.emf.build" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.emf.codegen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.core.build" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.smartemf.dependencies" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.smartemf" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1518877419851_4" label="core-deployment" name="deployment">
 <item elementID="=org.moflon.core.branding" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -114,8 +116,6 @@
 <item elementID="=org.emoflon.ibex.gt" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.dependencies" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.gt.statemodel" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=org.emoflon.smartemf.dependencies" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=org.emoflon.smartemf" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1496663535943_4" label="ibex-democles" name="ibex-democles">
 <item elementID="=org.emoflon.ibex.gt.democles" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
