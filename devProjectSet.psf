@@ -40,6 +40,7 @@
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,rework_TGG_validatorfix,org.emoflon.ibex.tgg.tggl.ui"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex.git,refactoring/rework_TGG,org.emoflon.ibex.tgg.tggmodel"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-ibex.git,refactoring/rework_TGG,org.emoflon.ibex.util"/>
+<project reference="1.0,https://github.com/eMoflon/emoflon-ibex-ui.git,rework_TGG_validatorfix,org.emoflon.ibex.tgg.wizards"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-headless.git,main,org.emoflon.jar.build"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-headless.git,main,org.emoflon.jar.feature"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-headless.git,main,org.emoflon.site.build"/>
@@ -55,21 +56,17 @@
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,refactoring_GT_TGG,org.moflon.core.releng.target"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,refactoring_GT_TGG,org.moflon.core.releng.updatesite"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,refactoring_GT_TGG,org.moflon.core.ui"/>
-<project reference="1.0,https://github.com/eMoflon/emoflon-core.git,refactoring_GT_TGG,org.moflon.core.ui.packageregistration"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,refactoring_GT_TGG,org.moflon.core.utilities"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,refactoring_GT_TGG,org.moflon.core.xtext"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,refactoring_GT_TGG,org.moflon.emf.build"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,refactoring_GT_TGG,org.moflon.emf.codegen"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-core.git,refactoring_GT_TGG,org.moflon.emf.ui"/>
-<project reference="1.0,https://github.com/eMoflon/emoflon-core.git,refactoring_GT_TGG,org.moflon.git.ui"/>
 <project reference="1.0,https://github.com/eMoflon/emoflon-releng.git,master,org.moflon.releng.signing"/>
 </provider>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1518877391885_3" label="core-code-generator" name="code generator">
 <item elementID="=org.moflon.emf.build" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.emf.codegen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.core.build" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=org.emoflon.smartemf.dependencies" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=org.emoflon.smartemf" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1518877419851_4" label="core-deployment" name="deployment">
 <item elementID="=org.moflon.core.branding" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -82,8 +79,6 @@
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1518877489367_5" label="core-ide" name="ide">
 <item elementID="=org.moflon.emf.ui" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.moflon.core.ui" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=org.moflon.core.ui.packageregistration" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=org.moflon.git.ui" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1518877537370_6" label="core-utils" name="utils">
 <item elementID="=org.emoflon.core.dependencies" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -105,9 +100,11 @@
 <item elementID="=org.emoflon.ibex.gt" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.dependencies" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.gt.statemodel" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.smartemf.dependencies" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.common.coremodel" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.gt.gtmodel" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.common.visualization" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.smartemf" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1502781754321_5" label="ibex-deployment" name="ibex-deployment">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/org.emoflon.ibex.ide.feature" type="4"/>
@@ -144,6 +141,7 @@
 <item elementID="=org.emoflon.ibex.tgg.tggl.ide" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.tgg.tggl.ui" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=org.emoflon.ibex.tgg.tggl" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=org.emoflon.ibex.tgg.wizards" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSets>
 <workingSets editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" id="1601921717606_18" label="ibex-ui-tgg-integrate" name="ibex-ui-tgg-integrate">
 <item elementID="=org.emoflon.ibex.tgg.integrate.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
