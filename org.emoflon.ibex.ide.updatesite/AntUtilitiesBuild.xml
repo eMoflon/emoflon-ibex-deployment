@@ -8,7 +8,7 @@
     </description>
 
 	<property name="buildDirectory" value="build" />
-	<property name="updateSiteSourceProject" value="org.emoflon.ibex.tgg.ide.updatesite" />
+	<property name="updateSiteSourceProject" value="org.emoflon.ibex.ide.updatesite" />
 	<property name="emoflonIbexUpdatesiteProject" value="emoflon-ibex-updatesite" />
 	<property name="updateSiteLocationSnapshot" value="${emoflonIbexUpdateSiteProjectRoot}/snapshot/updatesite" />
 	<property name="updateSiteLocationStable" value="${emoflonIbexUpdateSiteProjectRoot}/stable/updatesite" />
